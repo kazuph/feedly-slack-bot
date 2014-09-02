@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ln -sfv /home/homepage/feedy-slack/feedly /etc/cron.d/feedly
+sudo ln -sfv /home/username/feedy-slack/feedly /etc/cron.d/feedly
