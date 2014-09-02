@@ -1,0 +1,6 @@
+USERNAME=username
+FEEDY_API_KEY=Jfwekfe0h...
+SLACK_API_KEY=04fff-afnjafasfkj...
+SLACK_CHANNEL=#news
+
+00 8-22 * * * root su - $USERNAME -lc "cd /home/$USERNAME/feedy-slack && FEEDY_API_KEY=$FEEDY_API_KEY SLACK_API_KEY=$SLACK_API_KEY SLACK_CHANNEL=$SLACK_CHANNEL bundle exec ruby bot.rb" >> /home/$USERNAME/feedy-slack/tmp/cron.log 2>&1
